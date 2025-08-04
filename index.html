@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Practica tu Código - Akiradev</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      margin: 0;
+      background: #f6f8fa;
+      color: #222;
+    }
+    header {
+      background: #232946;
+      color: #fff;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      letter-spacing: 2px;
+    }
+    nav {
+      margin-top: 1rem;
+    }
+    nav a {
+      color: #eebbc3;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+    }
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      background: #fff;
+      padding: 2rem;
+      border-radius: 16px;
+      box-shadow: 0 4px 16px rgba(50,50,80,0.05);
+    }
+    .intro {
+      margin-bottom: 2.5rem;
+    }
+    .ejercicios {
+      margin-bottom: 2rem;
+    }
+    .ejercicio {
+      border: 1px solid #dedede;
+      border-radius: 10px;
+      padding: 1.2rem;
+      margin-bottom: 1.5rem;
+      background: #f9f9fb;
+    }
+    .ejercicio-title {
+      font-size: 1.2rem;
+      color: #232946;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+    .ejercicio-desc {
+      margin-bottom: 0.8rem;
+    }
+    .descargar-btn {
+      background: #232946;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      padding: 0.5rem 1rem;
+      cursor: pointer;
+      font-size: 1rem;
+      text-decoration: none;
+      transition: background 0.2s;
+    }
+    .descargar-btn:hover {
+      background: #eebbc3;
+      color: #232946;
+    }
+    footer {
+      text-align: center;
+      color: #aaa;
+      padding: 2rem 1rem;
+      font-size: 0.95rem;
+      background: transparent;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Practica tu Código</h1>
+    <nav>
+      <a href="#">Inicio</a>
+      <a href="#ejercicios">Ejercicios</a>
+      <a href="#">Vídeos (próximamente)</a>
+      <a href="#">Sobre mí</a>
+    </nav>
+  </header>
+  <main>
+    <section class="intro">
+      <h2>¡Bienvenido a Practica tu Código!</h2>
+      <p>
+        Aquí encontrarás ejercicios prácticos para mejorar tus habilidades de programación.  
+        Descarga los ejercicios en PDF y ¡ponte a prueba!  
+        Próximamente podrás resolverlos online y ver vídeos explicativos.
+      </p>
+    </section>
+
+    <section class="ejercicios" id="ejercicios">
+  <h2>Ejercicios prácticos</h2>
+
+  <!-- Ejercicio 1 -->
+  <div class="ejercicio">
+    <div class="ejercicio-title">Ejercicio 1: Hola mundo personalizado</div>
+    <div class="ejercicio-desc">
+      Crea un programa que muestre por pantalla el mensaje “¡Hola, [tu nombre]!” sustituyendo [tu nombre] por el que introduzca el usuario por teclado.
+      <br>
+      <b>¿Qué vas a aprender?</b> Entrada y salida básica de datos, guardar información en variables y personalizar mensajes.
+      <details>
+        <summary>Ver guía paso a paso</summary>
+        <ol>
+          <li>Pide al usuario que introduzca su nombre.</li>
+          <li>Guarda el nombre en una variable.</li>
+          <li>Muestra por pantalla: “¡Hola, [nombre]!” usando la variable.</li>
+        </ol>
+      </details>
+    </div>
+    <a class="descargar-btn" href="ejercicio1.pdf" download>Descargar PDF</a>
+  </div>
+
+  <!-- Ejercicio 2 -->
+  <div class="ejercicio">
+    <div class="ejercicio-title">Ejercicio 2: Suma de dos números</div>
+    <div class="ejercicio-desc">
+      Pide al usuario dos números enteros y muestra su suma. Imagina que estás creando una calculadora muy simple y personalizada.
+      <br>
+      <b>¿Qué vas a aprender?</b> Entrada múltiple, operaciones aritméticas básicas, uso de variables y mostrar resultados.
+      <details>
+        <summary>Ver guía paso a paso</summary>
+        <ol>
+          <li>Pide al usuario el primer número y guárdalo en una variable.</li>
+          <li>Pide el segundo número y guárdalo en otra variable.</li>
+          <li>Suma ambos números y guarda el resultado.</li>
+          <li>Muestra el resultado al usuario.</li>
+        </ol>
+      </details>
+    </div>
+    <a class="descargar-btn" href="ejercicio2.pdf" download>Descargar PDF</a>
+  </div>
+
+  <!-- Ejercicio 3 -->
+  <div class="ejercicio">
+    <div class="ejercicio-title">Ejercicio 3: Área y perímetro de un círculo</div>
+    <div class="ejercicio-desc">
+      Solicita el radio de un círculo y muestra su área y perímetro por pantalla.
+      <br>
+      <b>¿Qué vas a aprender?</b> Entrada de datos decimales, uso de fórmulas matemáticas, variables tipo decimal y salida formateada.
+      <details>
+        <summary>Ver guía paso a paso</summary>
+        <ol>
+          <li>Pide al usuario el radio y guárdalo como decimal.</li>
+          <li>Calcula el área usando la fórmula: área = π × radio × radio.</li>
+          <li>Calcula el perímetro: perímetro = 2 × π × radio.</li>
+          <li>Muestra ambos resultados al usuario.</li>
+        </ol>
+      </details>
+    </div>
+    <a class="descargar-btn" href="ejercicio3.pdf" download>Descargar PDF</a>
+  </div>
+
+  <!-- Ejercicio 4 -->
+  <div class="ejercicio">
+    <div class="ejercicio-title">Ejercicio 4: Conversor de temperaturas (Celsius a Fahrenheit)</div>
+    <div class="ejercicio-desc">
+      Solicita una temperatura en grados Celsius y muestra el resultado en Fahrenheit.
+      <br>
+      <b>¿Qué vas a aprender?</b> Operaciones con números reales, uso de fórmulas, conversión de unidades y salida clara.
+      <details>
+        <summary>Ver guía paso a paso</summary>
+        <ol>
+          <li>Pide al usuario la temperatura en Celsius.</li>
+          <li>Convierte la temperatura a Fahrenheit usando la fórmula: F = C × 9/5 + 32.</li>
+          <li>Muestra el resultado al usuario.</li>
+        </ol>
+      </details>
+    </div>
+    <a class="descargar-btn" href="ejercicio4.pdf" download>Descargar PDF</a>
+  </div>
+
+  <!-- Ejercicio 5 -->
+  <div class="ejercicio">
+    <div class="ejercicio-title">Ejercicio 5: Comprobación de número par o impar</div>
+    <div class="ejercicio-desc">
+      Pide un número entero al usuario y dile si es par o impar.
+      <br>
+      <b>¿Qué vas a aprender?</b> Condicionales simples (if-else), uso del operador módulo, mensajes condicionales.
+      <details>
+        <summary>Ver guía paso a paso</summary>
+        <ol>
+          <li>Pide al usuario un número entero.</li>
+          <li>Comprueba si el número es divisible por 2.</li>
+          <li>Muestra “par” si es divisible, “impar” si no lo es.</li>
+        </ol>
+      </details>
+    </div>
+    <a class="descargar-btn" href="ejercicio5.pdf" download>Descargar PDF</a>
+  </div>
+
+  <!-- Ejercicio 6 -->
+  <div class="ejercicio">
+    <div class="ejercicio-title">Ejercicio 6: Calculadora de edad</div>
+    <div class="ejercicio-desc">
+      Solicita el año de nacimiento y calcula la edad actual del usuario.
+      <br>
+      <b>¿Qué vas a aprender?</b> Operaciones con fechas, cálculo de diferencias, entrada y salida de datos.
+      <details>
+        <summary>Ver guía paso a paso</summary>
+        <ol>
+          <li>Pide al usuario el año de nacimiento.</li>
+          <li>Obtén el año actual (puedes ponerlo fijo o buscarlo en el sistema).</li>
+          <li>Calcula la edad restando el año de nacimiento al actual.</li>
+          <li>Muestra la edad calculada al usuario.</li>
+        </ol>
+      </details>
+    </div>
+    <a class="descargar-btn" href="ejercicio6.pdf" download>Descargar PDF</a>
+  </div>
+
+  <!-- Ejercicio 7 -->
+  <div class="ejercicio">
+    <div class="ejercicio-title">Ejercicio 7: Tabla de multiplicar de un número</div>
+    <div class="ejercicio-desc">
+      Pide un número y muestra su tabla de multiplicar del 1 al 10.
+      <br>
+      <b>¿Qué vas a aprender?</b> Uso de bucles, operaciones repetitivas y formateo de la salida.
+      <details>
+        <summary>Ver guía paso a paso</summary>
+        <ol>
+          <li>Pide al usuario un número.</li>
+          <li>Usa un bucle del 1 al 10.</li>
+          <li>En cada vuelta, multiplica el número por el valor del bucle y muestra el resultado.</li>
+        </ol>
+      </details>
+    </div>
+    <a class="descargar-btn" href="ejercicio7.pdf" download>Descargar PDF</a>
+  </div>
+
+  <!-- Ejercicio 8 -->
+  <div class="ejercicio">
+    <div class="ejercicio-title">Ejercicio 8: Sumar todos los números hasta N</div>
+    <div class="ejercicio-desc">
+      Solicita un número N y calcula la suma de todos los números desde 1 hasta N.
+      <br>
+      <b>¿Qué vas a aprender?</b> Bucles, acumuladores y lógica iterativa.
+      <details>
+        <summary>Ver guía paso a paso</summary>
+        <ol>
+          <li>Pide al usuario un número N.</li>
+          <li>Inicializa una variable acumuladora en 0.</li>
+          <li>Usa un bucle para sumar todos los números del 1 a N en el acumulador.</li>
+          <li>Muestra la suma total al usuario.</li>
+        </ol>
+      </details>
+    </div>
+    <a class="descargar-btn" href="ejercicio8.pdf" download>Descargar PDF</a>
+  </div>
+
+  <!-- Ejercicio 9 -->
+  <div class="ejercicio">
+    <div class="ejercicio-title">Ejercicio 9: Contador de vocales en una frase</div>
+    <div class="ejercicio-desc">
+      Pide una frase y cuenta cuántas vocales contiene.
+      <br>
+      <b>¿Qué vas a aprender?</b> Manejo de cadenas, bucles, condicionales y recuento de caracteres.
+      <details>
+        <summary>Ver guía paso a paso</summary>
+        <ol>
+          <li>Pide al usuario una frase.</li>
+          <li>Inicializa un contador de vocales en 0.</li>
+          <li>Recorre la frase, letra por letra.</li>
+          <li>Si la letra es vocal, suma 1 al contador.</li>
+          <li>Muestra el número total de vocales al usuario.</li>
+        </ol>
+      </details>
+    </div>
+    <a class="descargar-btn" href="ejercicio9.pdf" download>Descargar PDF</a>
+  </div>
+
+  <!-- Ejercicio 10 -->
+  <div class="ejercicio">
+    <div class="ejercicio-title">Ejercicio 10: Invertir una cadena de texto</div>
+    <div class="ejercicio-desc">
+      Solicita una palabra o frase y muestra la cadena invertida.
+      <br>
+      <b>¿Qué vas a aprender?</b> Manipulación de cadenas, bucles inversos y salida formateada.
+      <details>
+        <summary>Ver guía paso a paso</summary>
+        <ol>
+          <li>Pide al usuario una palabra o frase.</li>
+          <li>Recorre la cadena desde el final hasta el inicio y construye una nueva cadena invertida.</li>
+          <li>Muestra la cadena invertida al usuario.</li>
+        </ol>
+      </details>
+    </div>
+    <a class="descargar-btn" href="ejercicio10.pdf" download>Descargar PDF</a>
+  </div>
+
+</section>
+
+  </main>
+  <footer>
+    © 2025 Akiradev. Todos los derechos reservados.
+  </footer>
+</body>
+</html>
