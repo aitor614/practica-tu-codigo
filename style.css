@@ -1,0 +1,65 @@
+
+  :root{
+    --bg:#f6f8fa; --ink:#1e1f24; --muted:#4b4f59;
+    --brand:#232946; --accent:#eebbc3;
+    --card:#ffffff; --border:#e6e8ec; --btn:#1f253d;
+    --radius:14px;
+  }
+  *{box-sizing:border-box}
+
+  body { font-family: 'Segoe UI', Arial, sans-serif; background: var(--bg); color: var(--ink); }
+
+  /* Header */
+  .site-header { background:#232946; color:#fff; }
+  .site-header .wrap { max-width:1100px; margin:0 auto; padding:26px 16px; text-align:center; }
+  .brand { font-weight:800; font-size:2.5rem; letter-spacing:2px; margin:0 0 8px; }
+
+  /* Submenús estilo original */
+  .nav { display:flex; gap:28px; justify-content:center; flex-wrap:wrap; }
+  .nav a { color:#eebbc3; text-decoration:none; font-weight:bold; }
+  .nav a:hover { color:#fff; text-decoration: underline; text-underline-offset: 4px; text-decoration-thickness: 2px; }
+  .nav a[aria-current="page"] { color:#eebbc3; text-decoration: underline; text-underline-offset: 4px; text-decoration-thickness: 2px; }
+
+  /* Main container */
+  .container{max-width:980px;margin:28px auto;padding:0 16px;}
+  .panel{background:var(--card);border-radius:var(--radius);box-shadow:0 8px 32px rgba(0,0,0,.06);}
+  .panel-inner{padding:22px 22px;}
+  h2{margin:0 0 10px}
+  p.lead{color:var(--muted);margin:0}
+
+  /* Section heading */
+  .section-head{display:flex;align-items:center;justify-content:space-between;margin:18px 0 6px}
+  .section-head h3{margin:0;font-size:1.6rem}
+  .btn{appearance:none;border:none;border-radius:10px;padding:10px 14px;font-weight:600;cursor:pointer}
+  .btn-dark{background:var(--btn);color:#fff}
+  .btn-ghost{background:#fff;border:1px solid #cfd3d9;color:var(--brand)}
+
+  /* Exercise list */
+  .exercise{background:#fff;border:1px solid var(--border);border-radius:12px;padding:16px;margin:16px 0}
+  .exercise h4{margin:0 0 6px}
+  .exercise p{margin:0 0 8px;color:#2d313a;line-height:1.55}
+
+  /* Tags */
+  .meta{ font-size:.85rem; opacity:.9; display:flex; gap:8px; flex-wrap:wrap; margin:6px 0 8px; }
+  .pill{ background:#f1f3f5; padding:4px 10px; border-radius:999px; }
+
+  /* details guía */
+  .exercise-steps{
+    background:#fbfbfd; border:1px solid #eee; border-radius:10px;
+    padding:10px 12px; margin-top:6px;
+  }
+  .exercise-steps summary{
+    cursor:pointer; font-weight:700; list-style:none;
+  }
+  .exercise-steps summary::-webkit-details-marker{ display:none; }
+  .exercise-steps summary::before{
+    content:"▸"; display:inline-block; margin-right:6px; transition:transform .15s;
+  }
+  .exercise-steps[open] summary::before{ transform:rotate(90deg); }
+
+  .actions{display:flex;gap:10px;margin-top:10px}
+  .btn-pdf{background:var(--btn);color:#fff;padding:10px 14px;border-radius:10px}
+
+  /* Footer */
+  .site-footer{ margin-top:28px; }
+  .site-footer .wrap{ max-width:980px; margin:0 auto; padding:14px 16px 28px; text-align:center; color:#7b828f; }

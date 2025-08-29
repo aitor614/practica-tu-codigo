@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>Practica tu Código</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ejercicios · Practica tu Código</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <!-- HEADER -->
@@ -13,7 +13,7 @@
       <h1 class="brand">Practica tu Código</h1>
       <nav class="nav" aria-label="Principal">
         <a href="index.html">Inicio</a>
-        <a href="ejercicios.html">Ejercicios</a>
+        <a href="ejercicios.html" aria-current="page">Ejercicios</a>
         <a href="videos.html">Vídeos (próximamente)</a>
         <a href="sobre-mi.html">Sobre mí</a>
       </nav>
@@ -22,19 +22,18 @@
 
   <!-- CONTENIDO PRINCIPAL -->
   <main class="container">
-    <section class="panel">
-      <div class="panel-inner">
-        <h2>¡Bienvenido a Practica tu Código!</h2>
-        <p class="lead">
-          Aquí encontrarás ejercicios prácticos para mejorar tus habilidades de programación.
-          Descarga los ejercicios en PDF y ¡ponte a prueba! Próximamente podrás resolverlos online y ver vídeos explicativos.
-        </p>
-      </div>
+    <div class="section-head">
+      <h3>Ejercicios prácticos</h3>
+    </div>
+    <section id="list"></section>
   </main>
 
   <!-- FOOTER -->
   <footer class="site-footer">
     <div class="wrap">© 2025 Akiradev. Todos los derechos reservados.</div>
   </footer>
+
+  <script src="data/exercises.js"></script>
+  <script src="ejercicios.js"></script>
 </body>
 </html>
